@@ -1,0 +1,248 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#container{
+    background-color:#231F20;
+    height:50px;
+    width: 100%;;
+    border-radius: 1px;
+    display:flex;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.border:hover{
+ border:1px solid rgb(255, 255, 255)
+}
+div.amlo{
+    background-image: url("amazonlogo.jpg");
+    background-size: cover;
+    height:50px;
+    width:80px;
+}
+
+.addp{
+    font-size: 10px;
+    margin-left:5px;
+    text-align: center;
+}
+.addlogo{
+    background-image: URL("addlogo.jpg");
+    background-size: cover;
+    height:20px;
+    width:20px;
+    padding-top:3px;
+}
+.addh{
+    font-size: 7px;
+    text-align:right;
+    padding-top: 3px;
+    padding-left:2px
+}
+.addlogoh{
+    display:flex;
+    justify-content: center;
+}
+.searchbutton{
+    background-color: orange;
+    color:white;
+    font-size: 16px;
+    
+}
+.search{
+    padding-top:10px;
+    width: 40%;;
+}
+.searchbox{
+  font-size: 16px;
+  width:80%;
+}
+.greeting{
+    font-size: 8px;
+}
+.acclist{
+    font-weight: 700;
+    font-size: 12px;
+}
+.account{
+    text-align: center;
+    padding-top: 10px;
+}
+.cart{
+    display:flex;
+    justify-content: center;
+
+}
+.cartlogo{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/582/639/original/shopping-cart-icon-vector-illustration.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.carth{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 2px ;
+    
+}
+.container2{
+    background-color: rgb(37, 37, 63);
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    height:50px;
+}
+.center{
+    text-align:center;
+    padding-top: 10px;;
+}
+.listorderlogo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.5g_nprTt0LHZ_7v7D_PZ3gHaHW&pid=Api&P=0&h=180");
+    background-size: cover;
+    height: 35px;
+    width:35px;
+
+}
+.listh{
+    padding-top:7px;
+    font-size:15px;
+    padding-left:2px;
+}
+.main{
+    height: 800px;
+    width: 100%;
+    /**border: 2px solid red;**/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.photo{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/54379dc9e4b02667fff75285/1468337599213-116692CO9NUV2EWXVKSF/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0f8dQJ5B5_UOmfycDWklNyB6iE0rIMtwpjd99bzpx8zcKRkc8WWEWt0LGCNbwWndZjOqpeNLcJ80NK65_fV7S1UVrF8VqEfJs6iipY7hRf4kESJ1T9skH4hjtD-N_fkNyP_LIDCWDx8RE_7y4dVH9U2g/Clinique-3-step-beauty-cosmetics-product-photography-commercial-photographer-london-still-life.jpg");
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+.backgroundcolor{
+    background-color: aquamarine;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top:50px;
+   /** justify-content: center;**/
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 20%;
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 20%;
+}
+.box3{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 20%;
+}
+.box4{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 20%;
+}
+
+.box1{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+flex-direction: row
+
+}
+.p1{
+background-image: url("https://tse1.mm.bing.net/th?id=OIP.WimzTkurTbiEsMAoxvkU9wHaD4&pid=Api&P=0&h=180");
+background-size: cover;
+height: 25%;
+width: 30%;
+
+margin: 10px;
+}
+.p2{
+    background-image: url("https://i.pinimg.com/originals/e6/16/50/e61650efc5d6acff4c558aab0830d07a.jpg");
+    background-size: cover;
+    height: 25%;
+    width: 30%;
+    margin: 10px;
+    }
+    .p3{
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.JfNicZ8Ihp1ypfJTY71UaAHaE8&pid=Api&P=0&h=180");
+        background-size: cover;
+        height: 25%;
+        width: 30%;
+        margin: 10px;
+        }
+        .p4{
+            background-image: url("https://www.marketing91.com/wp-content/uploads/2018/05/Cosmetic-Brands.jpg");
+            background-size: cover;
+            height: 25%;
+            width: 30%;
+            margin: 10px;
+            }
+            .foter{
+                height:600px;
+                width: 100%;
+                border: 10px solid transparent;
+                background-color: #231F20;
+                }
+.container3{
+    height:400px ;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.fhalf{
+    height: 80%;
+    width: 100%;
+    background-color: #000000;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+        
+}
+
+.shalf{
+    height:40px;
+    width: 100%;
+    background-color: #2f2e2e;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    padding:10px;
+}
+a{
+    color:white;
+}
+.a{
+    padding-top: 100px;
+    paddin:-30px;
+}
+li{
+    list-style-type: none;;
+}
